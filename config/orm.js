@@ -1,10 +1,10 @@
+//updated Nov 18 2019
 // Import Node Dependencies
 var connection = require('./connection.js');
 
 
 
 
-// Connect to MySQL database
 connection.connect(function(err) {
   if (err) {
     console.error('error connecting: ' + err.stack);
